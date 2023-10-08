@@ -75,7 +75,7 @@ class ParamEditor extends React.Component<Props, State> {
                         </div>
                     );
                 })}
-                <button onClick={() => console.log(this.getModel())}>Посмотреть параметры в консоли</button>
+                <button onClick={() => console.log(this.getModel())}>Вывести параметры в консоль</button>
             </main>
         );
     }
